@@ -1,0 +1,13 @@
+{
+  "name": "collabstream",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "node server.js",
+    "heroku-postbuild": "cd client && npm install && npm run build"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "socket.io": "^4.7.2",
+    "path": "^0.12.7"
+  }
+}
